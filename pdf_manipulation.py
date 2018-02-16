@@ -46,10 +46,11 @@ if __name__ == "__main__":
     import os
 
     thisFolder, thisFile = os.path.split(__file__)
+    sampleDir = os.path.join(thisFolder, 'sample_PDFs')
 
-    outerFile = os.path.join(thisFolder, 'demo_outer_pages.pdf')
-    innerFile = os.path.join(thisFolder, 'demo_inner_pages.pdf')
-    destination = os.path.join(thisFolder, 'demo_combined_output.pdf')
+    outerFile = os.path.join(sampleDir, 'demo_outer_pages.pdf')
+    innerFile = os.path.join(sampleDir, 'demo_inner_pages.pdf')
+    destination = os.path.join(sampleDir, 'demo_combined_output.pdf')
 
     interleavePDFs(inner_pdf_path=innerFile,
                    outer_pdf_path=outerFile,
