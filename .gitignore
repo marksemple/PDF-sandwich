@@ -1,0 +1,11 @@
+# FILES NOT TO TRACK WITH GIT
+
+demo_combined_output.pdf
+*.pyc
+*.pyo
+*.dat
+Data/
+Log/
+*egg-info/
+*.sql
+*.json
