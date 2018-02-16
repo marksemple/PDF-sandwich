@@ -19,4 +19,5 @@ The inner_pdf pages can be anything you'd like.
 
 #### Note to self for future development goals:
 - Add simple SYS ARGS for command line use
+- Unit Tests?  maybe not necessary..
 - Consider adding a GUI for easier use and file-picking
